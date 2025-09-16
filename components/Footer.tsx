@@ -3,24 +3,14 @@
  * SPDX-License-Identifier: Apache-2.0
 */
 import React from 'react';
-import { FacebookIcon, InstagramIcon, WhatsAppIcon } from './icons';
+import { XIcon } from './icons';
 
 const Footer: React.FC = () => {
     const socialLinks = [
         {
-            name: 'Facebook',
-            href: 'https://www.facebook.com/share/1BLcTuSo2w/',
-            icon: FacebookIcon,
-        },
-        {
-            name: 'Instagram',
-            href: 'https://www.instagram.com/aglan_711?igsh=aTRpY3VmdGFqZjI5',
-            icon: InstagramIcon,
-        },
-        {
-            name: 'WhatsApp',
-            href: 'https://wa.me/967770863445',
-            icon: WhatsAppIcon,
+            name: 'X',
+            href: 'https://x.com/Salem_Mosabi',
+            icon: XIcon,
         }
     ];
 
